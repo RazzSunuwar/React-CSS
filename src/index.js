@@ -17,3 +17,6 @@ class MyHeader extends React.Component {
 }
 ReactDOM.render(<MyHeader />, document.getElementById('root'));
 
+// Note: In JSX, JavaScript expressions are written inside curly braces, and since JavaScript
+// objects also use curly braces, the styling in the example above is written inside two sets
+// of curly braces {{}}.
