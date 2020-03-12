@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// Example: Use backgroundColor instead of background-color:
+// Note: Import the stylesheet in your application:
 
-// import './index.css';
+import './index.css';
 // import App from './App';
 
 class MyHeader extends React.Component {
@@ -10,10 +10,10 @@ class MyHeader extends React.Component {
 
         return (
             <div>
-                <h1 style= {mystyle}>Hello Style!</h1>
+                <h1>Hello Style!</h1>
                 <p>Adding a title style !</p>
             </div>
-        )
+        );
     }
 }
 ReactDOM.render(<MyHeader />, document.getElementById('root'));

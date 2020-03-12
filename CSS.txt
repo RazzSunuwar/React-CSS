@@ -22,3 +22,6 @@ CSS Stylesheet
 You can write your CSS styling in a separate file, just save the file with
 the .css file extension, and import it in your application.
 Example is in App.js
+
+Import the stylesheet in your application: index.js
+
