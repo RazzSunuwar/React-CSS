@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ReactDOM from 'react-dom';
+// Import the stylesheet in your component:
+import styles from './mystyle.module.css';
 
-function App() {
-  return (
-    <div className="App">
+class Car extends React.Component {
+  render(){
+    return <h1 className={styles.bigblue}>Hello Car!</h1>
+  }
 
-    </div>
-  );
 }
 
-export default App;
+export default Car;
