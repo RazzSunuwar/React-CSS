@@ -1,0 +1,11 @@
+Styling React Using CSS
+
+There are many ways to style React with CSS, this tutorial will take a closer look at inline
+styling, and CSS stylesheet.
+
+Inline Styling
+To style element with the inline style attribute, the value must be a JavaScript object:
+Example is in index.js
+
+
+
