@@ -1,19 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// Note: Import the stylesheet in your application:
+// Note: Import the component in your application: App.js to index.js
+import Car from './App';
 
-import './index.css';
-// import App from './App';
-
-class MyHeader extends React.Component {
-    render(){
-
-        return (
-            <div>
-                <h1>Hello Style!</h1>
-                <p>Adding a title style !</p>
-            </div>
-        );
-    }
-}
-ReactDOM.render(<MyHeader />, document.getElementById('root'));
+ReactDOM.render(<Car />, document.getElementById('root'));

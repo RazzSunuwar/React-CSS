@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-// Import the stylesheet in your component:
+// Import the stylesheet in your component: mystyle.module.css to App.js
 import styles from './mystyle.module.css';
 
 class Car extends React.Component {
