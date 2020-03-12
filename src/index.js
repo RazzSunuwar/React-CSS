@@ -7,9 +7,16 @@ import ReactDOM from 'react-dom';
 
 class MyHeader extends React.Component {
     render(){
+        const mystyle = {
+            color: "white",
+            backgroundColor : "green",
+            padding: "100px",
+            textAlign: "center",
+            fontFamily: "Roboto"
+        };
         return (
             <div>
-                <h1 style= {{backgroundColor : "#76FF03"}}>Hello Style!</h1>
+                <h1 style= {mystyle}>Hello Style!</h1>
                 <p>Adding a title style !</p>
             </div>
         )
