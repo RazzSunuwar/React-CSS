@@ -1,0 +1,10 @@
+/* Create a new file called "App.css" and insert some CSS code in it: */
+body {
+  background-color: #76FF03;
+  color: #FFFFFF;
+  padding: "100px";
+  text-align: "center";
+  font-family: "Roboto";
+}
+
+/* Note: You can call the file whatever you like, just remember the correct file extension. */
